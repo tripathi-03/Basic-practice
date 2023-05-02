@@ -1,0 +1,112 @@
+/* *{
+    margin:0;
+    padding:0;
+
+} */
+
+
+
+body{
+background-color: #471414;
+color: #cb6363;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+font-weight: normal;
+/* same as above */
+font: normal Arial,Helvetica,sans-serif;
+line-height: 1.6em;
+margin: 0;
+}
+
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+
+}
+a:hover{
+    color:red;
+
+}
+a:active{
+    color:green;
+}
+a:visited{
+    color:yellow;
+}
+
+.box-1 {
+
+background-color: #333;
+color: white;
+border: 5px solid red;
+border-top-style: dotted;
+
+/* padding-top:20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px; */
+
+padding :20px;
+
+}
+.box-2 {
+margin:auto;
+width: 80%;
+    background-color: #333;
+    color: white;
+    border: 5px solid red;
+    border-top-style: dotted;
+    
+    /* padding-top:20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px; */
+    
+    padding :20px;
+    
+    }
+.box-1 h1{
+    font-family:Tahoma;
+    font-weight:800;
+    font-style:italic;
+    text-transform:uppercase;
+    text-decoration: underline;
+    letter-spacing: 0.2em;
+    word-spacing:1em;
+
+}
+.categories{
+    border: 1px #ccc solid;
+    padding: 10px;
+    border-radius: 15px;
+
+}
+.categories h2{
+ text-align: center;
+
+}
+
+.categories ul{
+    padding:0;
+    list-style: square;
+    list-style: none;
+}
+.categories li{
+    padding-bottom: 8px;
+    border-bottom: dotted 1px #333;
+    
+}
+
+.block{
+    float:left;
+    width:33.3%;
+    border:1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
